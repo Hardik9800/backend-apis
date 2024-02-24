@@ -10,5 +10,8 @@ app.listen(port, () => {
     console.log( 'server is running at http://localhost:${port}');
 });
 
+const mongoose = require('mongoose');
+const connectionString = "mongodb://localhost:27017/HardikGupta";
+console.log("database connected");
 
 
