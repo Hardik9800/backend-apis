@@ -14,4 +14,7 @@ const mongoose = require('mongoose');
 const connectionString = "mongodb://localhost:27017/HardikGupta";
 console.log("database connected");
 
+app.get('/api', (req, res) =>{
+    res.send('Hello, Express!');
 
+})
