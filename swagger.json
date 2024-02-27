@@ -1,0 +1,40 @@
+{
+
+  "openapi": "3.0.0",
+  "info": {
+    "version": "1.0.0",
+    "description": "API for E-commerce application",
+    "title": "E-commerce API"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000",
+      "description": "Local server"
+    }
+  ],
+
+ 
+  
+  "paths": {
+    "/": {
+      "get": {
+        "tags": [""],
+        "summary": "",
+        "description": "",
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "401": {
+            "description": "Unauthorized"
+          }
+        }
+      }
+    },
+    "/productListing": {
+      "post": {
+        "tags": ["listing"],
+        "summary": "pl",
+        "description": "productListing"
+        }
+    }}}
