@@ -1,0 +1,4 @@
+app.get('/categoryListing', (req, res) =>{
+    res.send('Categories of Products');
+
+})
