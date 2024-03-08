@@ -13,9 +13,9 @@ app.listen(port, () => {
     console.log( `server is running at http://localhost:${port}`);
 });
 
-import mongoose from 'mongoose';
-const connectionString = "mongodb://localhost:27017/HardikGupta";
-console.log("database connected");
+// import mongoose from 'mongoose';
+// const connectionString = "mongodb://localhost:27017/HardikGupta";
+// console.log("database connected");
 
 app.get('/api', (req, res) =>{
     res.send('Hello, Express!');
